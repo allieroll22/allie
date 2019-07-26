@@ -109,6 +109,7 @@ h1.page-title a {
 }
 .wppap-right-content a.wppap-project-url-btn:hover, a.wppap-project-url-btn:focus {
   background: #FDF6EE;
+  color:black;
 }
 
 /* ***** posts projects ***** */
