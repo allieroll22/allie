@@ -109,9 +109,15 @@ h1.page-title a {
 }
 .wppap-right-content a.wppap-project-url-btn:hover, a.wppap-project-url-btn:focus {
   background: #FDF6EE;
-  color:black;
+  color:black !important;
+}
+ul.wppap-thumbs li a.wppap-thumbnail {
+  background-color: #FDF6EE !important;
 }
 
+ul.wppap-thumbs li a.wppap-thumbnail .wppap-description {
+  background-color: #FDF6EE !important;
+}
 /* ***** posts projects ***** */
 .post-feature img {
   width: 100%;
