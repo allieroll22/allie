@@ -115,7 +115,7 @@ h1.page-title a {
   margin-bottom: 40px;
   margin-top: 15px;
 }
-.wppap-content img {
+.wppap-content img.post-project-image {
   display: none;
 }
 .wpapap-portfolio-img-slider .portfolio-slide {
