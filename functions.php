@@ -69,7 +69,16 @@ function blank_widgets_init(){
     'before_title'  =>  '<h3 class="widget-title">',
     'after_title'   =>  '</h3>'
   ));
-
+  //Header Logo Widget
+  register_sidebar( array(
+    'name'          =>  ('Post Image'),
+    'id'            =>  'post-images',
+    'description'   =>  'Post Images on post pages',
+    'before_widget' =>  '<div class="post-images-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
   //Project 1 Widget
   register_sidebar( array(
     'name'          =>  ('Project1'),
