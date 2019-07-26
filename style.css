@@ -140,6 +140,11 @@ ul.wppap-thumbs li a.wppap-thumbnail .wppap-description {
   width: 100%;
   height:auto;
 }
+
+img.post-project-image {
+  width: 100%;
+  height: auto;
+}
 /* footer */
 footer  {
   padding: 60px;
