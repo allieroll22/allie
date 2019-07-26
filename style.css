@@ -107,6 +107,13 @@ h1.page-title a {
 .wppap-main-wrapper ul.wppap-thumbs li.wppap-content {
   list-style-type: none;
 }
+.wppap-right-content .wppap-title {
+  font-family: 'Open Sans Condensed',sans-serif;
+}
+.wppap-right-content a.wppap-project-url-btn {
+  border:2px solid #FDF6EE;
+  padding:10px 20px;
+}
 .wppap-right-content a.wppap-project-url-btn:hover, a.wppap-project-url-btn:focus {
   background: #FDF6EE;
   color:black !important;
