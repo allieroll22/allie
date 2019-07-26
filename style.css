@@ -107,12 +107,16 @@ h1.page-title a {
 .wppap-main-wrapper ul.wppap-thumbs li.wppap-content {
   list-style-type: none;
 }
+
 .wppap-right-content {
   font-family: 'Open Sans',sans-serif;
 }
 .wppap-content {
   margin-bottom: 40px;
   margin-top: 15px;
+}
+.wppap-content img {
+  display: none;
 }
 .wpapap-portfolio-img-slider .portfolio-slide {
     height: 400px;
