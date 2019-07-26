@@ -9,8 +9,8 @@
   </div>
 
   <div class="twelve columns">
-  
-    <a href="download.php?file=Resume.pdf">Download Resume</a>
+
+    <a href="Resume.pdf">Download Resume</a>
 </div>
 </div>
 
