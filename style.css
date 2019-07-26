@@ -1,0 +1,142 @@
+/*
+Theme Name: Allie Roll Portfolio
+Theme URI:
+Author: Allie Roll
+Description: Custom theme for Web Interactivity Class
+Version: 0.1
+License: Open
+Text Domain: webinteractivity
+*/
+
+@import url("stylesheets/normalize.css");
+@import url("stylesheets/skeleton.css");
+
+body {
+  background: white;
+}
+
+h1,h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+p {
+  font-family: 'Open Sans',sans-serif;
+}
+.column,
+.columns {
+  margin-left: 0%;
+}
+
+/* Header Menu Style */
+header {
+  max-height: 70px;
+  background-color: #FDF6EE;
+  padding-top:15px;
+  z-index: 99;
+  position: relative;
+}
+
+.container.header {
+  max-width: 2000px;
+}
+
+.logo-image-widget {
+    max-width: 100px;
+}
+
+header .row {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-header-menu-container {
+  text-align: right;
+}
+ul#menu-header-menu li {
+  display: inline;
+}
+
+ul#menu-header-menu a {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 8px 10px;
+  color: black;
+}
+ul#menu-header-menu a:hover {
+  color:white;
+  background-color: black;
+}
+.hero-image{
+    top: 0;
+    z-index: 1;
+}
+.hero-image img {
+  width: 100%;
+  object-fit: contain;
+  height: auto;
+  object-position: center;
+  object-fit: contain;
+}
+
+/* ******* About Page ********* */
+h1.page-title {
+  text-align: center;
+  padding-top:25px;
+}
+
+h1.page-title a {
+  text-decoration: none;
+  color: black;
+}
+
+.row.about {
+  padding: 60px 0px;
+}
+.eight.columns {
+  padding-right: 40px;
+}
+.textwidget {
+  font-size: 17px;
+}
+
+/******* projects ***** */
+.container.projects {
+  max-width: 1200px;
+}
+
+/* ***** posts projects ***** */
+.post-feature img {
+  width: 500px;
+  height:auto;
+}
+/* footer */
+footer  {
+  padding: 60px;
+  background-color: #fdf5e6;
+}
+
+ul#menu-footer-menu li {
+  list-style-type: none;
+}
+
+ul#menu-footer-menu a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  color:black;
+}
+
+.responsive-map{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.responsive-map iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
