@@ -108,7 +108,13 @@ h1.page-title a {
   list-style-type: none;
 }
 .wppap-right-content {
-  font-family: 'Open Sans',sans-serif;
+  font-family: 'Open Sans',sans-serif;.
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+
+.wpapap-portfolio-img-slider .portfolio-slide {
+    height: 400px;
 }
 
 .wppap-right-content a.wppap-project-url-btn {
@@ -119,9 +125,7 @@ h1.page-title a {
   background: #FDF6EE;
   color:black !important;
 }
-ul.wppap-thumbs li a.wppap-thumbnail {
-  background-color: #FDF6EE !important;
-}
+
 
 ul.wppap-thumbs li a.wppap-thumbnail .wppap-description {
   background-color: #FDF6EE !important;
