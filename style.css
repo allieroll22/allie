@@ -109,10 +109,11 @@ h1.page-title a {
 }
 .wppap-right-content {
   font-family: 'Open Sans',sans-serif;
-    margin-bottom: 40px;
-    margin-top: 15px;
 }
-
+.wppap-content {
+  margin-bottom: 40px;
+  margin-top: 15px;
+}
 .wpapap-portfolio-img-slider .portfolio-slide {
     height: 400px;
 }
