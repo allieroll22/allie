@@ -104,6 +104,12 @@ h1.page-title a {
 .container.projects {
   max-width: 1200px;
 }
+.wppap-main-wrapper ul.wppap-thumbs li.wppap-content {
+  list-style-type: none;
+}
+.wppap-right-content a.wppap-project-url-btn:hover, a.wppap-project-url-btn:focus {
+  background: #FDF6EE;
+}
 
 /* ***** posts projects ***** */
 .post-feature img {
