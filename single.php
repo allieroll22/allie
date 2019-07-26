@@ -17,8 +17,7 @@
 
     ?>
   </div>
-  <div class="row">
-      <?php dynamic_sidebar('post-images'); ?>
-  </div>
+
+  
 </div>
 <?php get_footer(); ?>
