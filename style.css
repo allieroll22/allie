@@ -107,7 +107,7 @@ h1.page-title a {
 
 /* ***** posts projects ***** */
 .post-feature img {
-  width: 500px;
+  width: 100%;
   height:auto;
 }
 /* footer */
