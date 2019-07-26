@@ -9,7 +9,7 @@
 
 </div>
 
-
-
-
+<?php
+[pap_portfolio category="5,4,7"]
+?>
 <?php get_footer(); ?>
