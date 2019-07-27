@@ -115,7 +115,7 @@ h1.page-title a {
   margin-bottom: 40px;
   margin-top: 15px;
 }
-.wppap-content img.post-project-image .wppap-content img.post-project-image-sticker{
+.wppap-content img.post-project-image {
   display: none;
 }
 .wppap-content img.post-project-image-sticker{
