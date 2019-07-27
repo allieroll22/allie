@@ -139,6 +139,10 @@ ul.wppap-thumbs li a.wppap-thumbnail .wppap-description {
   background-color: #FDF6EE !important;
 }
 /* ***** posts projects ***** */
+h2.post-title {
+  text-align: center;
+  padding: 50px 0;
+}
 .post-feature img {
   width: 100%;
   height:auto;
