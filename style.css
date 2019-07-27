@@ -115,7 +115,7 @@ h1.page-title a {
   margin-bottom: 40px;
   margin-top: 15px;
 }
-.wppap-content img.post-project-image {
+.wppap-content img.post-project-image img.post-project-image-sticker{
   display: none;
 }
 .wpapap-portfolio-img-slider .portfolio-slide {
@@ -143,6 +143,11 @@ ul.wppap-thumbs li a.wppap-thumbnail .wppap-description {
 
 img.post-project-image {
   width: 100%;
+  height: auto;
+}
+img.post-project-image-sticker {
+  display: block;
+  width: 500px;
   height: auto;
 }
 /* footer */
