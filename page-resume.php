@@ -8,8 +8,6 @@
     <?php dynamic_sidebar('resume');?>
   </div>
 
-
-
 </div>
 
 <?php get_footer(); ?>
