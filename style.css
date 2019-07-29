@@ -174,10 +174,13 @@ div#wpforms-212 {
 }
 /* footer */
 footer  {
-  padding: 60px;
+  height:150px;
   background-color: #fdf5e6;
 }
 
+.one-third.column {
+    padding-top: 50px;
+}
 ul#menu-footer-menu li {
   list-style-type: none;
 }
