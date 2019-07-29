@@ -2,7 +2,7 @@
 
 <?php get_header(); ?>
 
-<div class="container">
+<div class="container about">
     <h1 class="page-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
   <div class="row about">
   <div class="eight columns">
