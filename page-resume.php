@@ -8,10 +8,8 @@
     <?php dynamic_sidebar('resume');?>
   </div>
 
-  <div class="twelve columns">
 
-    <a href="Resume.pdf">Download Resume</a>
-</div>
+
 </div>
 
 <?php get_footer(); ?>
