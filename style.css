@@ -25,6 +25,9 @@ p {
 .columns {
   margin-left: 0%;
 }
+.container {
+  min-height: 700px;
+}
 
 /* Header Menu Style */
 header {
