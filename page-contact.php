@@ -6,7 +6,6 @@
   <h1 class="page-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 
 
-  <h1 class="page-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
   <?php
     if(have_posts()){
       while(have_posts()){
