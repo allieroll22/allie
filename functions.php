@@ -79,6 +79,18 @@ function blank_widgets_init(){
     'before_title'  =>  '<h3 class="widget-title">',
     'after_title'   =>  '</h3>'
   ));
+
+  //Contact Image Widget
+  register_sidebar( array(
+    'name'          =>  ('Contact Image'),
+    'id'            =>  'contact-image',
+    'description'   =>  'Image contact page widget area',
+    'before_widget' =>  '<div class="contact-image-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+
   //Project 1 Widget
   register_sidebar( array(
     'name'          =>  ('Project1'),
