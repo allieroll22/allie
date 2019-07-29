@@ -176,6 +176,10 @@ div#wpforms-212 {
     max-width: 500px;
 }
 /* footer */
+.container.footer {
+  max-height: 150px !important;
+  height:150px !important;
+}
 footer  {
   height:150px;
   background-color: #fdf5e6;
