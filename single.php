@@ -9,7 +9,7 @@
           <h2 class="post-title"><?php the_title(); ?></h2>
           <div class="post-feature"> <?php the_post_thumbnail(); ?>
           </div>
-            <?php the_content(); ?>
+          <div class="post-text">  <?php the_content(); ?> </div>
 
 
       <?php  }//end while loop
@@ -18,6 +18,6 @@
     ?>
   </div>
 
-  
+
 </div>
 <?php get_footer(); ?>

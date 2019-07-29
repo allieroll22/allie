@@ -157,6 +157,10 @@ h2.post-title {
   width: 100%;
   height:auto;
 }
+.post-text p {
+  font-size: 24px;
+  padding-top: 20px;
+}
 
 img.post-project-image {
   width: 100%;
