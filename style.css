@@ -99,10 +99,10 @@ h1.page-title a {
 .textwidget {
   font-size: 17px;
 }
-.textwidget a {
+.resumeimage.textwidget a {
   text-align: center;
   color:black;
-  
+
 }
 /******* projects ***** */
 .container.projects {
