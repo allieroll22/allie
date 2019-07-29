@@ -98,6 +98,7 @@ h1.page-title a {
 }
 .about-us p {
   font-size: 17px;
+  text-align: left !important;
 }
 .textwidget {
   text-align: center;
