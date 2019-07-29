@@ -96,13 +96,14 @@ h1.page-title a {
 .eight.columns {
   padding-right: 40px;
 }
-.textwidget {
+.about-us p {
   font-size: 17px;
 }
-.resumeimage.textwidget a {
+.textwidget {
   text-align: center;
+}
+.textwidget a {
   color:black;
-
 }
 /******* projects ***** */
 .container.projects {
