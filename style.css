@@ -163,6 +163,12 @@ img.post-project-image-sticker {
   width: 500px;
   height: auto;
 }
+
+/* Contact Page ** * */
+
+div#wpforms-212 {
+    max-width: 500px;
+}
 /* footer */
 footer  {
   padding: 60px;
@@ -178,18 +184,4 @@ ul#menu-footer-menu a {
   font-weight: bold;
   font-size: 15px;
   color:black;
-}
-
-.responsive-map{
-  overflow:hidden;
-  padding-bottom:56.25%;
-  position:relative;
-  height:0;
-}
-.responsive-map iframe{
-  left:0;
-  top:0;
-  height:100%;
-  width:100%;
-  position:absolute;
 }
