@@ -1,6 +1,6 @@
 <footer>
   <div class="container footer">
-    <div class="row">
+    <div class="twelve columns">
 
 
 

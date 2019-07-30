@@ -182,8 +182,7 @@ div#wpforms-212 {
 }
 /* footer */
 .container.footer {
-  max-height: 150px !important;
-  height:150px !important;
+  padding-top: 20px;
 }
 footer  {
   height:180px;
