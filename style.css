@@ -192,6 +192,8 @@ footer  {
 
 .one-third.column {
     padding-top: 50px;
+    display: inline-flex;
+    justify-content: center;
 }
 ul#menu-footer-menu li {
   list-style-type: none;
