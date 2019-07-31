@@ -17,7 +17,7 @@
           while ( $the_query->have_posts() ) {
               $the_query->the_post(); ?>
               <div class="post-title">
-                <h2><a href="<?php the_permalink();?>"> <?php the_title();?></a></h2>
+                <h2 class="post-title"><a href="<?php the_permalink();?>"> <?php the_title();?></a></h2>
               </div>
               <?php the_post_thumbnail('medium'); ?>
               <?php the_excerpt(); ?>
