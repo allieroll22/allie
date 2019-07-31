@@ -4,7 +4,7 @@
 <div class="container">
   <div class="row">
     <div class="twelve columns single-content">
-    
+
 
       <?php
       $args = array('post_type'=>'post');
@@ -15,10 +15,18 @@
       if ( $the_query->have_posts() ) {
           echo '<ul>';
           while ( $the_query->have_posts() ) {
-              $the_query->the_post();
-              echo '<li>' . get_the_title() . '</li>';
+              $the_query->the_post(); ?>
+              <div class="post-title">
+                <h2><a href="<?php the_permalink();?>"> <?php the_title();?></a></h2>
+              </div>
+              <?php the_post_thumbnail('medium'); ?>
+              <?php the_excerpt(); ?>
+              <div class="post-info">
+                <p>Published: <a href="<?php echo get_day_link($archive_year, $archive_month, $archive_day); ?>"><?php echo get_the_date(); ?> </a></p>
+                <p><?php echo "Article written by: " . get_the_author(); ?></p>
+              </div>
+              <?php
           }
-          echo '</ul>';
       } else {
           // no posts found
       }
