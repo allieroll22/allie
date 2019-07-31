@@ -1,3 +1,5 @@
+<?php /*Template Name: Blog Page Template*/ ?>
+
 <?php get_header(); ?>
 <div class="container">
   <div class="row">
