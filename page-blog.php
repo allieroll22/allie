@@ -2,6 +2,9 @@
 
 <?php get_header(); ?>
 <div class="container">
+  <h1 class="page-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
+  <?php echo do_shortcode('[pap_portfolio]'); ?>
+  
   <div class="row">
     <div class="twelve columns single-content">
 
@@ -16,7 +19,7 @@
           echo '<ul>';
           while ( $the_query->have_posts() ) {
               $the_query->the_post(); ?>
-            
+
                 <h2 class="post-title-blog"><a href="<?php the_permalink();?>"> <?php the_title();?></a></h2>
 
               <?php the_post_thumbnail('medium'); ?>
