@@ -178,7 +178,9 @@ h2.post-title-blog {
 h2.post-title-blog a {
   text-decoration: none;
 }
-
+.post-text {
+    padding-bottom: 50px;
+}
 /* Contact Page ** * */
 .contact-image-widget {
     padding: 0 0 35px 45px;
