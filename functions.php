@@ -91,36 +91,6 @@ function blank_widgets_init(){
     'after_title'   =>  '</h3>'
   ));
 
-  //Project 1 Widget
-  register_sidebar( array(
-    'name'          =>  ('Project1'),
-    'id'            =>  'project1',
-    'description'   =>  'Project1 widget area',
-    'before_widget' =>  '<div class="project1-widget">',
-    'after_widget'  =>  '</div>',
-    'before_title'  =>  '<h3 class="widget-title">',
-    'after_title'   =>  '</h3>'
-  ));
-  //Project 2 Widget
-  register_sidebar( array(
-    'name'          =>  ('Project2'),
-    'id'            =>  'project2',
-    'description'   =>  'Project2 widget area',
-    'before_widget' =>  '<div class="project2-widget">',
-    'after_widget'  =>  '</div>',
-    'before_title'  =>  '<h3 class="widget-title">',
-    'after_title'   =>  '</h3>'
-  ));
-  //Project 3 Widget
-  register_sidebar( array(
-    'name'          =>  ('Project3'),
-    'id'            =>  'project3',
-    'description'   =>  'Project3 widget area',
-    'before_widget' =>  '<div class="project3-widget">',
-    'after_widget'  =>  '</div>',
-    'before_title'  =>  '<h3 class="widget-title">',
-    'after_title'   =>  '</h3>'
-  ));
   //Sidebar Widget
   register_sidebar( array(
     'name'          =>  ('Sidebar'),
@@ -133,39 +103,6 @@ function blank_widgets_init(){
   ));
 
 
-
-  //Bottom Left Home Widget
-  register_sidebar( array(
-    'name'          =>  ('Bottom Left Home'),
-    'id'            =>  'bottom-left-home',
-    'description'   =>  'Widget area in bottom left',
-    'before_widget' =>  '<div class="bottom-left">',
-    'after_widget'  =>  '</div>',
-    'before_title'  =>  '<h3 class="widget-title">',
-    'after_title'   =>  '</h3>'
-  ));
-
-  //Bottom Middle Home Widget
-  register_sidebar( array(
-    'name'          =>  ('Bottom Middle Home'),
-    'id'            =>  'bottom-middle-home',
-    'description'   =>  'Widget area in bottom middle',
-    'before_widget' =>  '<div class="bottom-middle">',
-    'after_widget'  =>  '</div>',
-    'before_title'  =>  '<h3 class="widget-title">',
-    'after_title'   =>  '</h3>'
-  ));
-
-  //Bottom Right Home Widget
-  register_sidebar( array(
-    'name'          =>  ('Bottom Right Home'),
-    'id'            =>  'bottom-right-home',
-    'description'   =>  'Widget area in bottom right',
-    'before_widget' =>  '<div class="bottom-right">',
-    'after_widget'  =>  '</div>',
-    'before_title'  =>  '<h3 class="widget-title">',
-    'after_title'   =>  '</h3>'
-  ));
   //FOOTER
   //Left Footer
   register_sidebar( array(
