@@ -244,9 +244,7 @@ ul#menu-footer-menu a {
 
 @media (max-width: 600px) {
   h1.hi-text {
-
-  .hero-image-text {
-    bottom: 40%;
+    font-size: 40px;
   }
 
 }
