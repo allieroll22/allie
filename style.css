@@ -29,21 +29,23 @@ p {
 
 /* Header Menu Style */
 header {
-  max-height: 70px;
+  max-height: 60px;
   background-color: #fdf5e6;
+  background-color: #fdf6ee6b;
   padding-top:15px;
   z-index: 99;
   position: relative;
 }
 
-.container.header {
-  max-width: 2000px;
-}
 
 .logo-image-widget {
     max-width: 100px;
+    height: 64px;
 }
-
+img.image.wp-image-99.attachment-full.size-full {
+  max-width: 100%;
+  height: 50px;
+}
 header .row {
   display:flex;
   justify-content: center;
@@ -62,7 +64,7 @@ ul#menu-header-menu a {
   font-size: 20px;
   font-weight: bold;
   padding: 8px 10px;
-  color: black;
+  color: white;
 }
 ul#menu-header-menu a:hover {
   color:white;
@@ -80,6 +82,7 @@ ul#menu-header-menu a:hover {
     line-height: 0;
 }
 .hero-image img {
+  margin-top: -86px;
   width: 100%;
   height: auto;
   object-position: center;
