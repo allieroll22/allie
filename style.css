@@ -94,7 +94,6 @@ h1.hi-text {
   margin-bottom: -8px;
   color: white;
   font-size: 60px;
-  font-weight: bold;
 }
 
 /* ******* About Page ********* */
@@ -255,14 +254,26 @@ ul#menu-footer-menu a {
 
 @media (max-width: 900px) {
   .hero-image-text {
-    top: 33%;
+    top: 43%;
+  }
+
+}
+
+@media (max-width: 700px) {
+
+  .hero-image-text {
+    top: 37%;
   }
 
 }
 
 @media (max-width: 600px) {
   h1.hi-text {
-    font-size: 40px;
+    font-size: 44px;
   }
+  .hero-image-text {
+    top: 31%;
+  }
+
 
 }
