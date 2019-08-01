@@ -211,7 +211,7 @@ div#wpforms-212 {
   padding-top: 20px;
 }
 footer  {
-  height:180px;
+  height:120px;
   background-color: #fdf5e6;
 }
 .twelve.columns {
@@ -225,6 +225,10 @@ footer  {
     width: 200px;
     position: unset !important;
     text-align: center;
+  }
+
+  div#sfsi_holder {
+    height: 15px !important;
   }
   p.footer-text {
       margin-bottom: 8px;
