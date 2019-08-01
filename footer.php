@@ -4,7 +4,6 @@
 
       <div class="footer-right">
         <p class="footer-text">Allie Roll 2019</p>
-        <p class="footer-text"> Contact Me</p>
       </div>
 
 

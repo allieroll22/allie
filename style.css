@@ -225,7 +225,9 @@ footer  {
     position: unset !important;
     text-align: center;
   }
-
+  p.footer-text {
+      margin-bottom: 3px;
+  }
 
 
 .one-third.column, .two-thirds.column {
