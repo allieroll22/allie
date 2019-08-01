@@ -69,6 +69,10 @@ ul#menu-header-menu a:hover {
   background-color: black;
 }
 
+.container {
+  min-height: 715px;
+}
+
 /* *** HOME PAGE *** */
 .hero-image{
     top: 0;
