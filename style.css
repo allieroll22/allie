@@ -30,7 +30,7 @@ p {
 /* Header Menu Style */
 header {
   max-height: 70px;
-  background-color: #FDF6EE;
+  background-color: #fdf5e6;
   padding-top:15px;
   z-index: 99;
   position: relative;
@@ -73,10 +73,10 @@ ul#menu-header-menu a:hover {
 .hero-image{
     top: 0;
     z-index: 1;
+    line-height: 0;
 }
 .hero-image img {
   width: 100%;
-  object-fit: contain;
   height: auto;
   object-position: center;
   object-fit: contain;
@@ -98,7 +98,7 @@ h1.hi-text {
 
 /* ******* About Page ********* */
 .container.about {
-  min-height: 700px;
+  min-height: 715px;
 }
 h1.page-title {
   text-align: center;
@@ -130,6 +130,7 @@ h1.page-title a {
 /******* projects ***** */
 .container.projects {
   max-width: 1200px;
+  padding-bottom: 50px;
 }
 .wppap-main-wrapper ul.wppap-thumbs li.wppap-content {
   list-style-type: none;
