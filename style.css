@@ -222,7 +222,7 @@ footer  {
 
 .norm_row.sfsi_wDiv {
     width: 200px;
-    position: unset;
+    position: unset !important;
     text-align: center;
   }
 
