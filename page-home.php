@@ -8,6 +8,12 @@
             <?php the_post_thumbnail(); ?>
         </div>
      <?php } ?>
+     <div class="hero-image-text">
+       <h1 class="hi-text">
+         Hi, I'm Allie.
+         I design Web Sites.
+      </h1>
+    </div>
 
 
 
