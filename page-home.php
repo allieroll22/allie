@@ -10,8 +10,9 @@
      <?php } ?>
      <div class="hero-image-text">
        <h1 class="hi-text">
-         Hi, I'm Allie.
-         I design Web Sites.
+         I'm Allie.</h1>
+        <h1 class="hi-text">
+        A Web Designer 
       </h1>
     </div>
 

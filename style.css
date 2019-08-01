@@ -68,6 +68,8 @@ ul#menu-header-menu a:hover {
   color:white;
   background-color: black;
 }
+
+/* *** HOME PAGE *** */
 .hero-image{
     top: 0;
     z-index: 1;
@@ -78,6 +80,17 @@ ul#menu-header-menu a:hover {
   height: auto;
   object-position: center;
   object-fit: contain;
+}
+
+.hero-image-text {
+    position: absolute;
+    bottom: 33%;
+    left: 40%;
+}
+h1.hi-text {
+    color: white;
+    font-size: 55px;
+    font-weight: bold;
 }
 
 /* ******* About Page ********* */
