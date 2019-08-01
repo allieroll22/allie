@@ -206,6 +206,14 @@ h2.post-title-blog a {
 div#wpforms-212 {
     max-width: 500px;
 }
+div.wpforms-container-full .wpforms-form .wpforms-field-label {
+  font-family: 'Open Sans Condensed',sans-serif;
+}
+
+
+button#wpforms-submit-212 {
+  background-color: #fdf5e6;
+}
 /* footer */
 .container.footer {
   padding-top: 20px;
@@ -288,7 +296,7 @@ ul#menu-footer-menu a {
     font-size: 44px;
   }
   .hero-image-text {
-    top: 31%;
+    top: 30%;
   }
 
 
