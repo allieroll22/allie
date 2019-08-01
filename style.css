@@ -85,7 +85,7 @@ ul#menu-header-menu a:hover {
 .hero-image-text {
   text-align: center;
   position: absolute;
-  top: 50%;
+  top: 48%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -262,12 +262,12 @@ ul#menu-footer-menu a {
 @media (max-width: 700px) {
 
   .hero-image-text {
-    top: 37%;
+    top: 35%;
   }
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 635px) {
   h1.hi-text {
     font-size: 44px;
   }
