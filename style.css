@@ -235,9 +235,9 @@ ul#menu-footer-menu a {
 
 
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .hero-image-text {
-    top: 30%;
+    top: 40%;
   }
 
 }
