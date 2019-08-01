@@ -3,8 +3,8 @@
     <div class="twelve columns">
 
       <div class="footer-right">
-        <p> Contact me </p>
-        <p> allieroll22@gmail.com</p>
+        <p class="footer-text">Allie Roll 2019</p>
+        <p class="footer-text"> Contact Me</p>
       </div>
 
 
