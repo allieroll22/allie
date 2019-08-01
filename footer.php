@@ -3,8 +3,8 @@
     <div class="twelve columns">
 
       <div class="footer-right">
-        <p class="footer-text">Allie Roll </p>
-        <p class="footer-text">2019</p>
+        <p class="footer-text">Allie Roll 2019 </p>
+      
       </div>
 
 
