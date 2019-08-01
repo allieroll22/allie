@@ -213,9 +213,20 @@ footer  {
   height:180px;
   background-color: #fdf5e6;
 }
-.footer-right {
-  text-align: right;
+.twelve.columns {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
 }
+
+.norm_row.sfsi_wDiv {
+    width: 200px;
+    position: relative;
+    text-align: unset;
+  }
+
+
 
 .one-third.column, .two-thirds.column {
     padding-top: 50px;
