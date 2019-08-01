@@ -85,7 +85,7 @@ ul#menu-header-menu a:hover {
 .hero-image-text {
   text-align: center;
   position: absolute;
-  bottom: 30%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -237,7 +237,16 @@ ul#menu-footer-menu a {
 
 @media (max-width: 800px) {
   .hero-image-text {
-    bottom: 50%;
+    top: 30%;
+  }
+
+}
+
+@media (max-width: 600px) {
+  h1.hi-text {
+
+  .hero-image-text {
+    bottom: 40%;
   }
 
 }
