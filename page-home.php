@@ -11,7 +11,8 @@
      <div class="hero-image-text">
        <h1 class="hi-text">
          Hi, I'm Allie.</h1>
-         <?php dynamic_sidebar('about-us'); ?>
+         <p class="hero-text">
+           I am a web designer </p>
     </div>
     <div class="container about">
 
