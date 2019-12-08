@@ -14,7 +14,7 @@
          <p class="hero-text">
            I am a web designer </p>
     </div>
-    <div class="container about">
+    <div class="container about-home">
 
       <div class="row about">
       <div class="eight columns">

@@ -107,6 +107,10 @@ p.hero-text {
     color: white;
 }
 
+.container.about-home {
+  
+}
+
 /* ******* About Page ********* */
 .container.about {
   min-height: 715px;
