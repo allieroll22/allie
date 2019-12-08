@@ -99,7 +99,12 @@ ul#menu-header-menu a:hover {
 h1.hi-text {
   font-family: 'Abril Fatface', cursive;
   color: white;
-  font-size: 60px;
+  font-size: 50px;
+}
+p.hero-text {
+    font-size: 20px;
+    font-family: 'Abril Fatface', cursive;
+    color: white;
 }
 
 /* ******* About Page ********* */
