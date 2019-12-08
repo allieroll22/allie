@@ -61,7 +61,9 @@ header .row {
 ul#menu-header-menu li {
   display: inline;
 }
-
+a.mega-menu-link {
+  color:white !important;
+}
 ul#menu-header-menu a {
   font-family: 'Open Sans Condensed', sans-serif;
   text-decoration: none;
