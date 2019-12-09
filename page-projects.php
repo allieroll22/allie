@@ -4,7 +4,8 @@
 
 <div class="container projects">
     <h1 class="page-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
-    <?php echo do_shortcode('[pap_portfolio]'); ?>
+    <?php echo do_shortcode('[gkit id=1]'); ?>
+    
 
 
 </div>
