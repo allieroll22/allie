@@ -285,6 +285,9 @@ ul#menu-footer-menu a {
   .hero-image-text {
     top: 39%;
   }
+  .about-us-image {
+    padding-top: 55px;
+  }
 
 }
 
@@ -292,12 +295,20 @@ ul#menu-footer-menu a {
   .hero-image-text {
     top: 37%;
   }
+  .about-us-image {
+    padding-top: 65px;
+  }
 
 }
 @media (max-width: 800px) {
   .hero-image-text {
     top: 34%;
   }
+
+
+}
+@media (max-width: 750px) {
+
   .seven.columns {
     width: 100%;
   }
@@ -306,7 +317,6 @@ ul#menu-footer-menu a {
   }
 
 }
-
 
 @media (max-width: 700px) {
 
