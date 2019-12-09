@@ -17,11 +17,11 @@
     <div class="container about-home">
 
       <div class="row about">
-      <div class="eight columns">
+      <div class="seven columns">
         <?php dynamic_sidebar('about-us'); ?>
       </div>
 
-      <div class="four columns">
+      <div class="five columns">
         <?php dynamic_sidebar('about-us-image')?>
       </div>
     </div>
