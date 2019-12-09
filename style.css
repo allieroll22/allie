@@ -317,11 +317,14 @@ ul#menu-footer-menu a {
 
   .seven.columns {
     width: 100%;
+    padding: 0 10px;
   }
   .five.columns {
     width: 100%;
   }
-
+  .about-us-image {
+    padding: 30px 10px
+  }
 }
 
 @media (max-width: 700px) {
