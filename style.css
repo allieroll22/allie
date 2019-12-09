@@ -298,8 +298,11 @@ ul#menu-footer-menu a {
   .hero-image-text {
     top: 34%;
   }
+  .seven.columns {
+    width: 100%;
+  }
   .five.columns {
-    width: 50%;
+    width: 100%;
   }
 
 }
