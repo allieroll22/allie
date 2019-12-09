@@ -113,6 +113,9 @@ p.hero-text {
   min-height: auto;
   max-width: 900px;
 }
+.container-portfolio {
+  background-color: black;
+}
 
 /* ******* About Page ********* */
 .container.about {

@@ -26,6 +26,10 @@
       </div>
     </div>
     </div>
+    <div class="container-portfolio">
+      <?php echo do_shortcode('[gkit id=1]'); ?>
+  </div>
+
 
 
 
