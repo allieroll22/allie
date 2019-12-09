@@ -13,6 +13,9 @@
     <?php dynamic_sidebar('about-us-image')?>
   </div>
 </div>
+
+<?php echo do_shortcode('[gkit id=1]'); ?>
+
 </div>
 
 
