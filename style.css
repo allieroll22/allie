@@ -298,6 +298,9 @@ ul#menu-footer-menu a {
   .hero-image-text {
     top: 34%;
   }
+  .five.columns {
+    width: 50%;
+  }
 
 }
 
