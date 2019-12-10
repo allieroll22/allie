@@ -116,7 +116,8 @@ p.hero-text {
 .hero-text-widget a {
     color: white !important;
     font-size: 27px;
-    font-family: 'Abril Fatface', cursive;
+    /* font-family: 'Abril Fatface', cursive; */
+    font-family: 'Open Sans Condensed', sans-serif
     text-decoration: none;
 }
 
