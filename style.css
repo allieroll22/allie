@@ -370,6 +370,13 @@ ul#menu-footer-menu a {
     font-size: 30px;
   }
 
+  .hero-text-widget a, .hero-text-widget {
+    font-size: 25px;
+  }
+  .hero-text-widget a:hover {
+    background-color: black;
+  }
+
 }
 
 @media (max-width: 460px) {
