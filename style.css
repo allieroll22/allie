@@ -114,7 +114,7 @@ p.hero-text {
   max-width: 900px;
 }
 .hero-text-widget a {
-    color: white;
+    color: white !important; 
     font-size: 19px;
     font-family: 'Abril Fatface', cursive;
     text-decoration: none;

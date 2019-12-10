@@ -11,9 +11,9 @@
      <div class="hero-image-text">
        <h1 class="hi-text">
          Hi, I'm Allie.</h1>
-         <p class="hero-text">
-           I am a web designer </p>
-          <?php dynamic_sidebar('hero-text'); ?>
+         <!-- <p class="hero-text">
+           I am a web designer </p> -->
+         <?php //dynamic_sidebar('hero-text'); ?> 
     </div>
     <div class="container about-home">
 
