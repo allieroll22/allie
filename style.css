@@ -12,7 +12,7 @@ Text Domain: webinteractivity
 @import url("stylesheets/skeleton.css");
 
 body {
-  background: whitesmoke;
+  background: white;
 }
 
 h1,h2 {
@@ -79,6 +79,9 @@ ul#menu-header-menu a:hover {
 
 
 /* *** HOME PAGE *** */
+.container-home {
+  background: whitesmoke;
+}
 .hero-image{
     top: 0;
     z-index: 1;
