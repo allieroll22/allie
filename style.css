@@ -122,10 +122,10 @@ p.hero-text {
 
 .hero-text-widget a:hover {
   text-decoration: underline;
-  background-color: black;
 }
 .hero-text-widget {
   color:white;
+  font-size: 27px;
 }
 /* ******* About Page ********* */
 .container.about {
