@@ -122,8 +122,7 @@ p.hero-text {
 
 .hero-text-widget a:hover {
   text-decoration: underline;
-
-  background: rgba(255,255,255,0.5);
+   text-shadow: 1px 1px #000000;
 }
 .hero-text-widget {
   color:white;
