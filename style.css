@@ -255,7 +255,10 @@ button#wpforms-submit-212 {
 }
 footer  {
   height:120px;
-  background-color: #fdf5e6;
+  /*background-color: #fdf5e6;*/
+  background-color: #1f1f1feb;
+  color:white;
+
 }
 .twelve.columns {
     display: grid;
