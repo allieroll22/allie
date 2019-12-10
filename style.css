@@ -116,7 +116,6 @@ p.hero-text {
 .hero-text-widget a {
     color: white !important;
     font-size: 27px;
-    /* font-family: 'Abril Fatface', cursive; */
     font-family: 'Open Sans Condensed', sans-serif;
     text-decoration: none;
 }
@@ -127,6 +126,7 @@ p.hero-text {
 .hero-text-widget {
   color:white;
   font-size: 27px;
+  font-family: 'Open Sans condensed',sans-serif;
 }
 /* ******* About Page ********* */
 .container.about {
