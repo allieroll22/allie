@@ -36,6 +36,15 @@ function blank_widgets_init(){
     'before_title'  =>  '<h3 class="widget-title">',
     'after_title'   =>  '</h3>'
   ));
+  register_sidebar( array(
+    'name'          =>  ('Hero Text'),
+    'id'            =>  'hero-text',
+    'description'   =>  'Hero Text on Home Page',
+    'before_widget' =>  '<div class="hero-text-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
 
   //About Us Text Block Widget
   register_sidebar( array(
