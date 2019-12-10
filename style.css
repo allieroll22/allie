@@ -113,7 +113,20 @@ p.hero-text {
   min-height: auto;
   max-width: 900px;
 }
+.hero-text-widget a {
+    color: white;
+    font-size: 19px;
+    font-family: 'Abril Fatface', cursive;
+    text-decoration: none;
+}
 
+.hero-text-widget a:hover {
+  color:black;
+  background-color: white;
+}
+.hero-text-widget {
+  color:white;
+}
 /* ******* About Page ********* */
 .container.about {
   min-height: 715px;
