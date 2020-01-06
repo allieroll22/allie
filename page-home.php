@@ -15,18 +15,7 @@
            I am a web designer </p> -->
          <?php dynamic_sidebar('hero-text'); ?>
     </div>
-    <div class="container about-home">
 
-      <div class="row about">
-      <div class="seven columns">
-        <?php dynamic_sidebar('about-us'); ?>
-      </div>
-
-      <div class="five columns">
-        <?php dynamic_sidebar('about-us-image')?>
-      </div>
-    </div>
-    </div>
 </div>
 
 <?php get_footer(); ?>
