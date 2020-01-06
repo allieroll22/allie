@@ -14,7 +14,6 @@
   </div>
 </div>
 
-<?php echo do_shortcode('[gkit id=1]'); ?>
 
 </div>
 
