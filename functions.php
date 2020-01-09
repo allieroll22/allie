@@ -99,6 +99,17 @@ function blank_widgets_init(){
     'before_title'  =>  '<h3 class="widget-title">',
     'after_title'   =>  '</h3>'
   ));
+
+  // Sub Project Header Image
+  register_sidebar( array(
+    'name'          =>  ('Project Header'),
+    'id'            =>  'project-header',
+    'description'   =>  'Image project page widget area',
+    'before_widget' =>  '<div class="project-header-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
   // Sub Project Text
   register_sidebar( array(
     'name'          =>  ('Project Text'),
@@ -119,7 +130,7 @@ function blank_widgets_init(){
     'before_title'  =>  '<h3 class="widget-title">',
     'after_title'   =>  '</h3>'
   ));
-  
+
   //Sidebar Widget
   register_sidebar( array(
     'name'          =>  ('Sidebar'),
