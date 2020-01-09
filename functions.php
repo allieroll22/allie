@@ -143,7 +143,7 @@ function blank_widgets_init(){
 
   // Sub Project Header Text
   register_sidebar( array(
-    'name'          =>  ('Project Header Text'),
+    'name'          =>  ('Project Link Text'),
     'id'            =>  'project-link',
     'description'   =>  'Image project page widget area',
     'before_widget' =>  '<div class="project-link-text-widget">',
