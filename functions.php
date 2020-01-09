@@ -99,7 +99,27 @@ function blank_widgets_init(){
     'before_title'  =>  '<h3 class="widget-title">',
     'after_title'   =>  '</h3>'
   ));
-
+  // Sub Project Text
+  register_sidebar( array(
+    'name'          =>  ('Project Text'),
+    'id'            =>  'project-text',
+    'description'   =>  'Image contact page widget area',
+    'before_widget' =>  '<div class="project-text-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+  // Sub Project Image
+  register_sidebar( array(
+    'name'          =>  ('Project Image'),
+    'id'            =>  'project-image',
+    'description'   =>  'Image contact page widget area',
+    'before_widget' =>  '<div class="project-image-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+  
   //Sidebar Widget
   register_sidebar( array(
     'name'          =>  ('Sidebar'),
