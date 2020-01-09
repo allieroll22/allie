@@ -1,4 +1,4 @@
-<?php /*Template Name: Sub Projects Page Template*/ ?>
+<?php /*Template Name: Sub Project2 Page Template*/ ?>
 
 <?php get_header(); ?>
 
