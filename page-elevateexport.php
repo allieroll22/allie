@@ -21,6 +21,10 @@
     </div>
     </div>
 
+    <div class="back-projects">
+      <?php dynamic_sidebar('project-link')?>
+    </div>
+
 
 </div>
 
