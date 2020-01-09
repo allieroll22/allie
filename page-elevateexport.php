@@ -6,9 +6,11 @@
     <h1 class="page-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 
     <div class="header-projects">
+      <?php dynamic_sidebar('project-header-text'); ?>
+
       <?php dynamic_sidebar('project-header'); ?>
     </div>
-    
+
     <div class="row projects">
     <div class="seven columns">
       <?php dynamic_sidebar('project-text'); ?>
