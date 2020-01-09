@@ -215,6 +215,13 @@ ul.wppap-thumbs li a.wppap-thumbnail .wppap-description {
 .project-text-widget p {
     text-align: left !important;
 }
+
+.project-text-widget {
+    padding-top: 30px;
+}
+.project-link-text-widget {
+    font-size: 20px;
+}
 /* ***** posts projects ***** */
 h2.post-title {
   text-align: center;
