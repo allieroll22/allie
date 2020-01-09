@@ -203,6 +203,18 @@ h1.page-title a {
 ul.wppap-thumbs li a.wppap-thumbnail .wppap-description {
   background-color: #FDF6EE !important;
 }
+/* ******* SUB PROJECT ******* */
+.project-header-widget {
+  text-align: center;
+}
+.project-header-text-widget p {
+    line-height: .3;
+    font-size: 18px;
+    text-align: center;
+}
+.project-text-widget p {
+    text-align: left !important;
+}
 /* ***** posts projects ***** */
 h2.post-title {
   text-align: center;
