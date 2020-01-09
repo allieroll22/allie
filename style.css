@@ -204,21 +204,20 @@ ul.wppap-thumbs li a.wppap-thumbnail .wppap-description {
   background-color: #FDF6EE !important;
 }
 /* ******* SUB PROJECT ******* */
-.project-header-widget {
+.project-header-widget, .project2-header-widget {
   text-align: center;
 }
-.project-header-text-widget p {
+.project-header-text-widget p, .project2-header-text-widget p{
     line-height: .3;
     font-size: 18px;
     text-align: center;
 }
-.project-text-widget p {
+.project-text-widget p, .project2-text-widget {
     text-align: left !important;
-}
-
-.project-text-widget {
     padding-top: 30px;
 }
+
+
 .project-link-text-widget {
     font-size: 20px;
 }
