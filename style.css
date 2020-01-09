@@ -212,7 +212,7 @@ ul.wppap-thumbs li a.wppap-thumbnail .wppap-description {
     font-size: 18px;
     text-align: center;
 }
-.project-text-widget p, .project2-text-widget {
+.project-text-widget p, .project2-text-widget p {
     text-align: left !important;
     padding-top: 30px;
 }
