@@ -158,9 +158,7 @@ h1.page-title a {
   text-align: left !important;
   margin-bottom: 15px;
 }
-.textwidget {
-  text-align: center;
-}
+/* *** Download resume button */
 .textwidget a {
   color:black;
 }
