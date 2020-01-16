@@ -6,18 +6,18 @@
     <h1 class="page-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 
     <div class="header-projects">
-      <?php dynamic_sidebar('project-header-text'); ?>
+      <?php dynamic_sidebar('bob-header-text'); ?>
 
-      <?php dynamic_sidebar('project-header'); ?>
+      <?php dynamic_sidebar('bob-header'); ?>
     </div>
 
     <div class="row projects">
     <div class="seven columns">
-      <?php dynamic_sidebar('project-text'); ?>
+      <?php dynamic_sidebar('bob-text'); ?>
     </div>
 
     <div class="five columns">
-      <?php dynamic_sidebar('project-image')?>
+      <?php dynamic_sidebar('bob-image')?>
     </div>
     </div>
 
