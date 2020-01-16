@@ -3,7 +3,7 @@
 <?php get_header(); ?>
 
 <div class="container sub-projects">
-    <h1 class="page-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
+    <h1 class="page-title-projects"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 
     <div class="header-projects">
       <?php dynamic_sidebar('bob-header-text'); ?>
