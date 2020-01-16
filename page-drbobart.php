@@ -1,4 +1,4 @@
-<?php /*Template Name: Elevate Export Page Template*/ ?>
+<?php /*Template Name: Dr Bob Art Page Template*/ ?>
 
 <?php get_header(); ?>
 
