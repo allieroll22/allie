@@ -202,7 +202,9 @@ ul.wppap-thumbs li a.wppap-thumbnail .wppap-description {
   background-color: #FDF6EE !important;
 }
 /* ******* SUB PROJECT ******* */
-
+/*.container.sub-projects {
+    max-width: 955px;
+}*/
 h1.page-title-projects {
   text-align: left;
   padding-top:25px;
