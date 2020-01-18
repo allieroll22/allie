@@ -16,7 +16,7 @@
       <?php dynamic_sidebar('bob-text'); ?>
     </div>
 
-    <div class="five columns">
+    <div class="five columns projects">
       <?php dynamic_sidebar('bob-image')?>
     </div>
     </div>
