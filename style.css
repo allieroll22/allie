@@ -150,7 +150,7 @@ h1.page-title a {
 .row.about {
   padding: 60px 0px;
 }
-.seven.columns {
+.seven.columns.about {
   padding-right: 30px;
 }
 .about-us p {
