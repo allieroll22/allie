@@ -20,12 +20,13 @@
       <?php dynamic_sidebar('bob-image')?>
     </div>
     </div>
+    
+    <?php dynamic_sidebar('bob-gallery'); ?>
 
     <div class="back-projects">
       <?php dynamic_sidebar('project-link')?>
     </div>
 
-    <?php dynamic_sidebar('bob-gallery'); ?>
 
 
 
