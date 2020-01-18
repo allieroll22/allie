@@ -232,7 +232,16 @@ function blank_widgets_init(){
     'before_title'  =>  '<h3 class="widget-title">',
     'after_title'   =>  '</h3>'
   ));
-
+  //Sub Project Gallery
+  register_sidebar( array(
+    'name'          =>  ('Bob Gallery'),
+    'id'            =>  'bob-gallery',
+    'description'   =>  'Images project page widget area',
+    'before_widget' =>  '<div class="bob-gallery-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
 
   //Sidebar Widget
   register_sidebar( array(

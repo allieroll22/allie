@@ -25,6 +25,9 @@
       <?php dynamic_sidebar('project-link')?>
     </div>
 
+    <?php dynamic_sidebar('bob-gallery'); ?>
+
+
 
 </div>
 
