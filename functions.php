@@ -293,6 +293,58 @@ function blank_widgets_init(){
     'before_title'  =>  '<h3 class="widget-title">',
     'after_title'   =>  '</h3>'
   ));
+
+  // Sub Project Header Image
+  register_sidebar( array(
+    'name'          =>  ('GoAct Header'),
+    'id'            =>  'GoAct-header',
+    'description'   =>  'Image project page widget area',
+    'before_widget' =>  '<div class="GoAct-header-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+  // Sub Project Header Text
+  register_sidebar( array(
+    'name'          =>  ('GoAct Header Text'),
+    'id'            =>  'GoAct-header-text',
+    'description'   =>  'Image project page widget area',
+    'before_widget' =>  '<div class="GoAct-header-text-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+  // Sub Project Text
+  register_sidebar( array(
+    'name'          =>  ('GoAct Text'),
+    'id'            =>  'GoAct-text',
+    'description'   =>  'Image contact page widget area',
+    'before_widget' =>  '<div class="GoAct-text-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+  // Sub Project Image
+  register_sidebar( array(
+    'name'          =>  ('GoAct Image'),
+    'id'            =>  'GoAct-image',
+    'description'   =>  'Image contact page widget area',
+    'before_widget' =>  '<div class="GoAct-image-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+  //Sub Project Gallery
+  register_sidebar( array(
+    'name'          =>  ('GoAct Gallery'),
+    'id'            =>  'GoAct-gallery',
+    'description'   =>  'Images project page widget area',
+    'before_widget' =>  '<div class="GoAct-gallery-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+
   //Sidebar Widget
   register_sidebar( array(
     'name'          =>  ('Sidebar'),
