@@ -1,4 +1,4 @@
-<?php /*Template Name: Moni Basu Page Template*/ ?>
+<?php /*Template Name: Go Activations Page Template*/ ?>
 
 <?php get_header(); ?>
 
