@@ -14,7 +14,7 @@
     <div class="row projects">
     <div class="seven columns">
       <?php dynamic_sidebar('jackj-text'); ?>
-          <a href="http://www.allieroll.com/jack-johnson/"><button class="website">View the Website</button></a>
+          <a href="http://www.allieroll.com/jack-johnson/" target="_blank" rel="noopener"><button class="website">View the Website</button></a>
     </div>
 
     <div class="five columns projects">
