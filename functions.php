@@ -394,6 +394,112 @@ function blank_widgets_init(){
     'before_title'  =>  '<h3 class="widget-title">',
     'after_title'   =>  '</h3>'
   ));
+
+
+  // Sub Project Header Image
+  register_sidebar( array(
+    'name'          =>  ('Sponge Header'),
+    'id'            =>  'sponge-header',
+    'description'   =>  'Image project page widget area',
+    'before_widget' =>  '<div class="sponge-header-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+  // Sub Project Header Text
+  register_sidebar( array(
+    'name'          =>  ('sponge Header Text'),
+    'id'            =>  'sponge-header-text',
+    'description'   =>  'Image project page widget area',
+    'before_widget' =>  '<div class="sponge-header-text-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+  // Sub Project Text
+  register_sidebar( array(
+    'name'          =>  ('sponge Text'),
+    'id'            =>  'sponge-text',
+    'description'   =>  'Image contact page widget area',
+    'before_widget' =>  '<div class="sponge-text-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+  // Sub Project Image
+  register_sidebar( array(
+    'name'          =>  ('sponge Image'),
+    'id'            =>  'sponge-image',
+    'description'   =>  'Image contact page widget area',
+    'before_widget' =>  '<div class="sponge-image-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+  //Sub Project Gallery
+  register_sidebar( array(
+    'name'          =>  ('sponge Gallery'),
+    'id'            =>  'sponge-gallery',
+    'description'   =>  'Images project page widget area',
+    'before_widget' =>  '<div class="sponge-gallery-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+
+
+  // Sub Project Header Image
+  register_sidebar( array(
+    'name'          =>  ('Jack Header'),
+    'id'            =>  'jack-header',
+    'description'   =>  'Image project page widget area',
+    'before_widget' =>  '<div class="jack-header-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+  // Sub Project Header Text
+  register_sidebar( array(
+    'name'          =>  ('jack Header Text'),
+    'id'            =>  'jack-header-text',
+    'description'   =>  'Image project page widget area',
+    'before_widget' =>  '<div class="jack-header-text-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+  // Sub Project Text
+  register_sidebar( array(
+    'name'          =>  ('jack Text'),
+    'id'            =>  'jack-text',
+    'description'   =>  'Image contact page widget area',
+    'before_widget' =>  '<div class="jack-text-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+  // Sub Project Image
+  register_sidebar( array(
+    'name'          =>  ('jack Image'),
+    'id'            =>  'jack-image',
+    'description'   =>  'Image contact page widget area',
+    'before_widget' =>  '<div class="jack-image-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+  //Sub Project Gallery
+  register_sidebar( array(
+    'name'          =>  ('jack Gallery'),
+    'id'            =>  'jack-gallery',
+    'description'   =>  'Images project page widget area',
+    'before_widget' =>  '<div class="jack-gallery-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+
+
   //Sidebar Widget
   register_sidebar( array(
     'name'          =>  ('Sidebar'),
