@@ -9,12 +9,13 @@
       <?php dynamic_sidebar('moni-header-text'); ?>
 
       <?php dynamic_sidebar('moni-header'); ?>
-      <a href="http://bryanawall.com/wordpress-manual/"><button class="website">View the Website</button></a> 
+
     </div>
 
     <div class="row projects">
     <div class="seven columns">
       <?php dynamic_sidebar('moni-text'); ?>
+      <a href="http://bryanawall.com/wordpress-manual/"><button class="website">View the Website</button></a> 
     </div>
 
     <div class="five columns projects">
