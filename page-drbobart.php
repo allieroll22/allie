@@ -14,13 +14,14 @@
     <div class="row projects">
     <div class="seven columns">
       <?php dynamic_sidebar('bob-text'); ?>
+      <a href="http://www.allieroll.com/dr-bob-art/" target="_blank" rel="noopener"><button class="website">View the Website</button></a>
     </div>
 
     <div class="five columns projects">
       <?php dynamic_sidebar('bob-image')?>
     </div>
     </div>
-    
+
     <?php dynamic_sidebar('bob-gallery'); ?>
 
     <div class="back-projects">

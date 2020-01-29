@@ -14,6 +14,7 @@
     <div class="row projects">
     <div class="seven columns">
       <?php dynamic_sidebar('GoAct-text'); ?>
+        <a href="http://www.allieroll.com/goactivations/" target="_blank" rel="noopener"><button class="website">View the Website</button></a>
     </div>
 
     <div class="five columns projects">
