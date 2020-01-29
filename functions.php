@@ -344,7 +344,56 @@ function blank_widgets_init(){
     'before_title'  =>  '<h3 class="widget-title">',
     'after_title'   =>  '</h3>'
   ));
-
+  // Sub Project Header Image
+  register_sidebar( array(
+    'name'          =>  ('Jackj Header'),
+    'id'            =>  'jackj-header',
+    'description'   =>  'Image project page widget area',
+    'before_widget' =>  '<div class="jackj-header-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+  // Sub Project Header Text
+  register_sidebar( array(
+    'name'          =>  ('jackj Header Text'),
+    'id'            =>  'jackj-header-text',
+    'description'   =>  'Image project page widget area',
+    'before_widget' =>  '<div class="jackj-header-text-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+  // Sub Project Text
+  register_sidebar( array(
+    'name'          =>  ('jackj Text'),
+    'id'            =>  'jackj-text',
+    'description'   =>  'Image contact page widget area',
+    'before_widget' =>  '<div class="jackj-text-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+  // Sub Project Image
+  register_sidebar( array(
+    'name'          =>  ('jackj Image'),
+    'id'            =>  'jackj-image',
+    'description'   =>  'Image contact page widget area',
+    'before_widget' =>  '<div class="jackj-image-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+  //Sub Project Gallery
+  register_sidebar( array(
+    'name'          =>  ('jackj Gallery'),
+    'id'            =>  'jackj-gallery',
+    'description'   =>  'Images project page widget area',
+    'before_widget' =>  '<div class="jackj-gallery-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
   //Sidebar Widget
   register_sidebar( array(
     'name'          =>  ('Sidebar'),
