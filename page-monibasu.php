@@ -9,7 +9,7 @@
       <?php dynamic_sidebar('moni-header-text'); ?>
 
       <?php dynamic_sidebar('moni-header'); ?>
-      <button class="website"><a href="http://bryanawall.com/wordpress-manual/"></a> </button>
+      <button class="website">View the Website<a href="http://bryanawall.com/wordpress-manual/"></a> </button>
     </div>
 
     <div class="row projects">
