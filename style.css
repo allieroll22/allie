@@ -255,29 +255,7 @@ h3.widget-title {
     display: inline-flex;
     justify-content: center;
 }
-/* ***** posts projects ***** */
-h2.post-title {
-  text-align: center;
-  padding: 50px 0;
-}
-.post-feature img {
-  width: 100%;
-  height:auto;
-}
-.post-text p {
-  font-size: 20px;
-  padding-top: 20px;
-}
 
-img.post-project-image {
-  width: 100%;
-  height: auto;
-}
-img.post-project-image-sticker {
-  display: block;
-  width: 500px;
-  height: auto;
-}
 /* *** BLOG PAGE * */
 h2.post-title-blog {
     padding: 50px 0 5px 0;
