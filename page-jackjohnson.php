@@ -12,7 +12,7 @@
     </div>
 
     <div class="row projects">
-    <div class="twelve columns">
+    <div class="twelve columns projects">
       <?php dynamic_sidebar('jackj-text'); ?>
           <a href="http://www.allieroll.com/jack-johnson/" target="_blank" rel="noopener"><button class="website">View the Website</button></a>
           <a href="http://www.allieroll.com/projects"><button class="projects">Back to Projects Website</button></a>
