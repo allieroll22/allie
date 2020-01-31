@@ -15,6 +15,7 @@
     <div class="seven columns">
       <?php dynamic_sidebar('jack-text'); ?>
         <a href="http://www.allieroll.com/jack-the-black-lab/" target="_blank" rel="noopener"><button class="website">View the Website</button></a>
+        <a href="http://www.allieroll.com/projects"><button class="projects">Back to Projects</button></a>
     </div>
 
     <div class="five columns projects">
@@ -22,11 +23,6 @@
     </div>
     </div>
 
-    <?php dynamic_sidebar('jack-gallery'); ?>
-
-    <div class="back-projects">
-      <?php dynamic_sidebar('project-link')?>
-    </div>
 
 
 
