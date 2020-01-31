@@ -15,17 +15,18 @@
     <div class="seven columns">
       <?php dynamic_sidebar('jack-text'); ?>
         <a href="http://www.allieroll.com/jack-the-black-lab/" target="_blank" rel="noopener"><button class="website">View the Website</button></a>
-        <a href="http://www.allieroll.com/projects"><button class="projects">Back to Projects</button></a>
+
     </div>
 
     <div class="five columns projects">
       <?php dynamic_sidebar('jack-image')?>
     </div>
-
+    
+    <div class="twelve columns button">
       <a href="http://www.allieroll.com/projects"><button class="projects">Back to Projects</button></a>
     </div>
+  </div>
 
-<a href="http://www.allieroll.com/projects"><button class="projects">Back to Projects</button></a>
 
 
 
