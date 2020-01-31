@@ -22,8 +22,8 @@
       <?php dynamic_sidebar('jack-image')?>
     </div>
 
-    
-    <div class="twelve columns button">
+
+    <div class="twelve columns button-area">
       <a href="http://www.allieroll.com/projects"><button class="projects">Back to Projects</button></a>
     </div>
   </div>

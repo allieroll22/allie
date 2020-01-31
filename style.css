@@ -228,6 +228,10 @@ button.website, button.projects {
     border: 1px solid black;
 }
 
+.twelve.columns.button-area {
+  padding-top: 20px;
+}
+
 .project-header-widget, .project2-header-widget {
   text-align: center;
 }
