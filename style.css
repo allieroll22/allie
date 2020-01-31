@@ -207,8 +207,10 @@ ul.wppap-thumbs li a.wppap-thumbnail .wppap-description {
     max-width: 955px;
 }*/
 
-.twelve-columns.projects {
+.twelve.columns.projects {
   text-align: left;
+  padding-bottom: 20px;
+  font-size: 16px;
 }
 h1.page-title-projects {
   text-align: left;
@@ -240,7 +242,7 @@ h1.page-title-projects a {
 }
 
 h3.widget-title {
-    font-size: 25px;
+    font-size: 30px;
     font-family: 'open sans condensed';
 }
 
