@@ -499,6 +499,56 @@ function blank_widgets_init(){
     'after_title'   =>  '</h3>'
   ));
 
+  // Sub Project Header Image
+  register_sidebar( array(
+    'name'          =>  ('Misc Header'),
+    'id'            =>  'misc-header',
+    'description'   =>  'Image project page widget area',
+    'before_widget' =>  '<div class="misc-header-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+  // Sub Project Header Text
+  register_sidebar( array(
+    'name'          =>  ('misc Header Text'),
+    'id'            =>  'misc-header-text',
+    'description'   =>  'Image project page widget area',
+    'before_widget' =>  '<div class="misc-header-text-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+  // Sub Project Text
+  register_sidebar( array(
+    'name'          =>  ('misc Text'),
+    'id'            =>  'misc-text',
+    'description'   =>  'Image contact page widget area',
+    'before_widget' =>  '<div class="misc-text-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+  // Sub Project Image
+  register_sidebar( array(
+    'name'          =>  ('misc Image'),
+    'id'            =>  'misc-image',
+    'description'   =>  'Image contact page widget area',
+    'before_widget' =>  '<div class="misc-image-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+  //Sub Project Gallery
+  register_sidebar( array(
+    'name'          =>  ('misc Gallery'),
+    'id'            =>  'misc-gallery',
+    'description'   =>  'Images project page widget area',
+    'before_widget' =>  '<div class="jack-gallery-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
 
   //Sidebar Widget
   register_sidebar( array(

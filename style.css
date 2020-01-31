@@ -207,6 +207,10 @@ ul.wppap-thumbs li a.wppap-thumbnail .wppap-description {
     max-width: 955px;
 }*/
 
+.container.sub-projects {
+    padding-bottom: 50px;
+}
+
 .twelve.columns.projects {
   text-align: left;
   padding-bottom: 20px;
