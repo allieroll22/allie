@@ -210,7 +210,7 @@ ul.wppap-thumbs li a.wppap-thumbnail .wppap-description {
 .twelve.columns.projects {
   text-align: left;
   padding-bottom: 20px;
-  font-size: 16px;
+  font-size: 17px;
 }
 h1.page-title-projects {
   text-align: left;
@@ -220,6 +220,12 @@ h1.page-title-projects {
 h1.page-title-projects a {
   text-decoration: none;
   color: black;
+}
+
+button.website, button.projects {
+    font-size: 14px;
+    font-family: 'open sans';
+    border: 1px solid black;
 }
 
 .project-header-widget, .project2-header-widget {
