@@ -17,6 +17,7 @@
           <a href="http://www.allieroll.com/jack-johnson/" target="_blank" rel="noopener"><button class="website">View the Website</button></a>
           <a href="http://www.allieroll.com/projects"><button class="projects">Back to Projects Website</button></a>
     </div>
+  </div>
 
     <?php dynamic_sidebar('jackj-gallery'); ?>
 
