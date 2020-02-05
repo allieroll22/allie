@@ -192,6 +192,16 @@ function blank_widgets_init(){
     'after_title'   =>  '</h3>'
   ));
 
+  // Sub Project Image
+  register_sidebar( array(
+    'name'          =>  ('campbell gallery'),
+    'id'            =>  'campbell-gallery',
+    'description'   =>  'Image contact page widget area',
+    'before_widget' =>  '<div class="campbell-image-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
   // Sub Project Header Image
   register_sidebar( array(
     'name'          =>  ('Bob Header'),
