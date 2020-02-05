@@ -153,40 +153,40 @@ function blank_widgets_init(){
   ));
   // Sub Project Header Image
   register_sidebar( array(
-    'name'          =>  ('Project2 Header'),
-    'id'            =>  'project2-header',
+    'name'          =>  ('Campbell Header'),
+    'id'            =>  'campbell-header',
     'description'   =>  'Image project page widget area',
-    'before_widget' =>  '<div class="project2-header-widget">',
+    'before_widget' =>  '<div class="campbell-header-widget">',
     'after_widget'  =>  '</div>',
     'before_title'  =>  '<h3 class="widget-title">',
     'after_title'   =>  '</h3>'
   ));
   // Sub Project Header Text
   register_sidebar( array(
-    'name'          =>  ('Project2 Header Text'),
-    'id'            =>  'project2-header-text',
+    'name'          =>  ('campbell Header Text'),
+    'id'            =>  'campbell-header-text',
     'description'   =>  'Image project page widget area',
-    'before_widget' =>  '<div class="project2-header-text-widget">',
+    'before_widget' =>  '<div class="campbell-header-text-widget">',
     'after_widget'  =>  '</div>',
     'before_title'  =>  '<h3 class="widget-title">',
     'after_title'   =>  '</h3>'
   ));
   // Sub Project Text
   register_sidebar( array(
-    'name'          =>  ('Project2 Text'),
-    'id'            =>  'project2-text',
+    'name'          =>  ('campbell Text'),
+    'id'            =>  'campbell-text',
     'description'   =>  'Image contact page widget area',
-    'before_widget' =>  '<div class="project2-text-widget">',
+    'before_widget' =>  '<div class="campbell-text-widget">',
     'after_widget'  =>  '</div>',
     'before_title'  =>  '<h3 class="widget-title">',
     'after_title'   =>  '</h3>'
   ));
   // Sub Project Image
   register_sidebar( array(
-    'name'          =>  ('Project2 Image'),
-    'id'            =>  'project2-image',
+    'name'          =>  ('campbell Image'),
+    'id'            =>  'campbell-image',
     'description'   =>  'Image contact page widget area',
-    'before_widget' =>  '<div class="project2-image-widget">',
+    'before_widget' =>  '<div class="campbell-image-widget">',
     'after_widget'  =>  '</div>',
     'before_title'  =>  '<h3 class="widget-title">',
     'after_title'   =>  '</h3>'
