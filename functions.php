@@ -146,6 +146,17 @@ function blank_widgets_init(){
     'after_title'   =>  '</h3>'
   ));
 
+  // Sub Project Image
+  register_sidebar( array(
+    'name'          =>  ('Project Gallery'),
+    'id'            =>  'project-gallery',
+    'description'   =>  'Image contact page widget area',
+    'before_widget' =>  '<div class="project-gallery-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+
   // Sub Project Header Text
   register_sidebar( array(
     'name'          =>  ('Project Link Text'),
