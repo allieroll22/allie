@@ -612,7 +612,7 @@ function blank_widgets_init(){
     'name'          =>  ('misc Gallery'),
     'id'            =>  'misc-gallery',
     'description'   =>  'Images project page widget area',
-    'before_widget' =>  '<div class="jack-gallery-widget">',
+    'before_widget' =>  '<div class="misc-gallery-widget">',
     'after_widget'  =>  '</div>',
     'before_title'  =>  '<h3 class="widget-title">',
     'after_title'   =>  '</h3>'
