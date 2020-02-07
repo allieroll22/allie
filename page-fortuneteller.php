@@ -28,7 +28,6 @@
       <a href="http://www.allieroll.com/projects"><button class="projects">Back to Projects</button></a>
     </div>
 </div>
-    <?php dynamic_sidebar('campbell-gallery'); ?>
 
 
 
