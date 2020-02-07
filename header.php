@@ -6,6 +6,8 @@
     <!--favicon-->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="http://allieroll.com/favicon.ico" />
+
 
     <title><?php bloginfo('name'); ?></title>
 
