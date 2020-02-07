@@ -16,7 +16,7 @@
         <?php dynamic_sidebar('jackj-text'); ?>
             <a href="http://www.allieroll.com/jack-johnson/" target="_blank" rel="noopener"><button class="website">View the Website</button></a>
       </div>
-      <div class="five columns">
+      <div class="five columns projects">
         <?php dynamic_sidebar('jackj-image')?>
       </div>
       <div class="twelve columns button-area">
