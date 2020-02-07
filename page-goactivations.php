@@ -25,7 +25,7 @@
     <?php dynamic_sidebar('GoAct-gallery'); ?>
 
     <div class="back-projects">
-      <?php dynamic_sidebar('project-link')?>
+      <a href="http://www.allieroll.com/projects"><button class="projects">Back to Projects</button></a>
     </div>
 
 
