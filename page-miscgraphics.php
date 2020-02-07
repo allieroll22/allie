@@ -14,10 +14,9 @@
     <div class="row projects">
     <div class="twelve columns projects">
       <?php dynamic_sidebar('misc-text'); ?>
-
+    </div>
           <?php dynamic_sidebar('misc-gallery'); ?>
           <a href="http://www.allieroll.com/projects"><button class="projects">Back to Projects</button></a>
-    </div>
   </div>
 
 
