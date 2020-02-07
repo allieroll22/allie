@@ -12,11 +12,17 @@
     </div>
 
     <div class="row projects">
-    <div class="twelve columns projects">
-      <?php dynamic_sidebar('jackj-text'); ?>
-          <a href="http://www.allieroll.com/jack-johnson/" target="_blank" rel="noopener"><button class="website">View the Website</button></a>
-          <a href="http://www.allieroll.com/projects"><button class="projects">Back to Projects</button></a>
-    </div>
+      <div class="seven columns">
+        <?php dynamic_sidebar('jackj-text'); ?>
+            <a href="http://www.allieroll.com/jack-johnson/" target="_blank" rel="noopener"><button class="website">View the Website</button></a>
+      </div>
+      <div class="five columns">
+        <?php dynamic_sidebar('jackj-image')?>
+      </div>
+      <div class="twelve columns button-area">
+        <a href="http://www.allieroll.com/projects"><button class="projects">Back to Projects</button></a>
+      </div>
+
   </div>
 
     <?php dynamic_sidebar('jackj-gallery'); ?>
