@@ -527,6 +527,48 @@ function blank_widgets_init(){
 
   // Sub Project Header Image
   register_sidebar( array(
+    'name'          =>  ('fortune Header'),
+    'id'            =>  'fortune-header',
+    'description'   =>  'Image project page widget area',
+    'before_widget' =>  '<div class="fortune-header-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+  // Sub Project Header Text
+  register_sidebar( array(
+    'name'          =>  ('fortune Header Text'),
+    'id'            =>  'fortune-header-text',
+    'description'   =>  'Image project page widget area',
+    'before_widget' =>  '<div class="fortune-header-text-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+  // Sub Project Text
+  register_sidebar( array(
+    'name'          =>  ('fortune Text'),
+    'id'            =>  'fortune-text',
+    'description'   =>  'Image contact page widget area',
+    'before_widget' =>  '<div class="fortune-text-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+  // Sub Project Image
+  register_sidebar( array(
+    'name'          =>  ('Fortune Image'),
+    'id'            =>  'fortune-image',
+    'description'   =>  'Image contact page widget area',
+    'before_widget' =>  '<div class="fortune-image-widget">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+
+
+  // Sub Project Header Image
+  register_sidebar( array(
     'name'          =>  ('Misc Header'),
     'id'            =>  'misc-header',
     'description'   =>  'Image project page widget area',
